@@ -4,13 +4,15 @@ version = "0.1.0"
 description = "A tool and library to extract tables from pdf document based on templates."
 authors = ["Sumit Arora <singhsays@gmail.com>"]
 readme = "README.md"
-packages = [{include = "template_table_extractor"}]
+packages = [{ include = "extractor" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 click = "^8.1.6"
 loguru = "^0.7.0"
 
+[tool.poetry.scripts]
+tablextractor = 'extractor:cli'
 
 [build-system]
 requires = ["poetry-core"]
