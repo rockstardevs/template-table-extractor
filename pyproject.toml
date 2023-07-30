@@ -10,6 +10,7 @@ packages = [{ include = "extractor" }]
 python = "^3.11"
 click = "^8.1.6"
 loguru = "^0.7.0"
+dacite = "^1.8.1"
 
 [tool.poetry.scripts]
 tablextractor = 'extractor:cli'
