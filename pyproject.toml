@@ -11,6 +11,9 @@ python = "^3.11"
 click = "^8.1.6"
 loguru = "^0.7.0"
 dacite = "^1.8.1"
+pandas = "^2.0.3"
+camelot-py = "^0.11.0"
+opencv-python-headless = "^4.8.0.74"
 
 [tool.poetry.scripts]
 tablextractor = 'extractor:cli'

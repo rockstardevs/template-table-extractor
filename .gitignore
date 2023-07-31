@@ -2,7 +2,7 @@ __pycache__
 *.egg-info
 .venv
 dist
-testdata
+data
 templates
 tmp
 .pytest_cache
